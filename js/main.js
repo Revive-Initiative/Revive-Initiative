@@ -40,16 +40,4 @@ document.addEventListener('DOMContentLoaded', () => {
     // Footer year
     const yearEl = document.getElementById('current-year');
     if (yearEl) yearEl.textContent = new Date().getFullYear();
-
-    // Contact form (frontend-only demo)
-    const contactForm = document.getElementById('contact-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', (e) => {
-            e.preventDefault();
-            const status = document.getElementById('contact-status');
-            status.textContent = 'Thank you — your message has been received. This form is not yet connected to email delivery.';
-            status.classList.remove('hidden');
-            contactForm.reset();
-        });
-    }
 });

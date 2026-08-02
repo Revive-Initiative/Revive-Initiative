@@ -17,6 +17,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
   form.addEventListener('submit', (e) => {
     e.preventDefault();
+
+    const params = {
+      from_name: form.getElementById('name').value,
+      reply_to: document.getElementById('email').value,
+      message: document.getElementById('message').value,
+    };
+
+    console.log('EmailJS params:', params);
+
     status.classList.remove('hidden', 'text-red-600');
     status.classList.add('text-brand-green');
     status.textContent = 'Sending your message…';
@@ -24,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const submitBtn = form.querySelector('button[type="submit"]');
     submitBtn.disabled = true;
 
-    emailjs.sendForm(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, form)
+    emailjs.send(EMAILJS_SERVICE_ID, EMAILJS_TEMPLATE_ID, params)
       .then(() => {
         status.textContent = 'Thank you — your message has been sent to info@revive-initiative.org.';
         form.reset();
