@@ -1,0 +1,18 @@
+{
+  "stats": {
+    "water_delivered_liters": 19000,
+    "goal_liters": 1000000,
+    "campaigns_completed": 0,
+    "families_reached": 640,
+    "donors": 312
+  },
+  "recent_campaigns": [
+    {
+      "name": "Water Relief Initiative",
+      "type": "Water",
+      "status": "active",
+      "summary": "Delivering clean drinking water to displaced families in extremely difficult conditions.",
+      "link": "/pages/water-initiative.html"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "campaign_code": "WRI-2026-01",
+  "campaign_name": "Water Relief Initiative",
+  "status": "active",
+  "goal_liters": 1000000,
+  "current_liters": 19000,
+  "last_updated": "2026-07-15",
+  "families_reached": 640,
+  "donors": 312,
+  "locations": ["Northern displacement corridor", "Eastern transit camps"],
+  "timeline": [
+    { "phase": "Assessment & sourcing", "status": "complete" },
+    { "phase": "First distribution cycle", "status": "complete" },
+    { "phase": "Scale-up to 250,000 L", "status": "in-progress" },
+    { "phase": "Full 1,000,000 L goal", "status": "upcoming" }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "_note": "Arabic translation placeholder — site currently renders in English only. Structure mirrors en.json for future i18n support.",
+  "nav": {
+    "home": "",
+    "about": "",
+    "water": "",
+    "reports": "",
+    "gallery": "",
+    "contact": ""
+  },
+  "hero": { "title": "", "subtitle": "", "cta": "" },
+  "footer": { "rights": "" }
+}

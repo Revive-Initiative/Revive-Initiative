@@ -1,0 +1,16 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "water": "Water Initiative",
+    "reports": "Reports",
+    "gallery": "Gallery",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "From a drop to a lifeline.",
+    "subtitle": "Revive Initiative delivers transparent, community-driven humanitarian assistance — starting with clean water for displaced families.",
+    "cta": "Support the Water Relief Initiative"
+  },
+  "footer": { "rights": "All rights reserved." }
+}
