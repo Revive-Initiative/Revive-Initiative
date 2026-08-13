@@ -39,6 +39,10 @@ body {
   color: var(--fresh-green-dark);
 }
 
+.text-brand-blue-dark {
+  color: var(--deep-blue-dark);
+}
+
 .bg-brand-green {
   background-color: var(--fresh-green);
 }
