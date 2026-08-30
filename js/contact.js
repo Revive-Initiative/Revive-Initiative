@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
     e.preventDefault();
 
     const params = {
-      from_name: form.getElementById('name').value,
+      from_name: document.getElementById('name').value,
       reply_to: document.getElementById('email').value,
       message: document.getElementById('message').value,
     };
