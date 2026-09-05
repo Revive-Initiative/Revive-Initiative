@@ -3,10 +3,10 @@
   "campaign_name": "Water Relief Initiative",
   "status": "active",
   "goal_liters": 1000000,
-  "current_liters": 19000,
-  "last_updated": "2026-07-19",
+  "current_liters": 23000,
+  "last_updated": "2026-09-03",
   "families_reached": 640,
-  "donors": 4,
+  "donors": 5,
   "locations": ["Northern displacement corridor", "Eastern transit camps"],
   "timeline": [
     { "phase": "Assessment & sourcing", "status": "complete" },
